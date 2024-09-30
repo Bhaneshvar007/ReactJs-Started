@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px 40px;
+    color: #fff;
+    border-bottom: 1px solid #ffffff5c;
+}
+
+.nav-com{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+nav li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-contect{
+    background-color: #fff;
+    padding: .8rem 1.8rem;
+    border-radius: 50px;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.nav-contect:hover{
+    background-color: #e6e3e3;
+}
